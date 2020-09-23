@@ -1,0 +1,20 @@
+{
+    "name": "hetzner-notifier",
+    "version": "1.0.0",
+    "description": "A Hetzner bot that notifies you when new servers are avaliable.",
+    "main": "src/index.ts",
+    "scripts": {
+        "start": "node --inspect=5858 -r ts-node/register ./src/index.ts --allowJs --checkJs",
+        "start:watch": "nodemon"
+    },
+    "author": "Davy Frankes",
+    "license": "MIT",
+    "dependencies": {
+        "@types/node": "^14.11.2",
+        "eslint": "^7.9.0",
+        "eslint-plugin-import": "^2.22.0",
+        "nodemon": "^2.0.4",
+        "ts-node": "^9.0.0",
+        "typescript": "^4.0.3"
+    }
+}
